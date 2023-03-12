@@ -1,0 +1,46 @@
+header .navbar .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+}
+.navbar .links{
+    display: flex;
+    width: 75%;
+    justify-content: center;
+    padding: 20px;
+    align-items: center;
+}
+
+.other-links{
+    justify-content: space-between;
+}
+.navbar .links a{
+    width: 100%;
+}
+.navbar a:hover{
+    text-decoration: none;
+    padding: 20px;
+    border-bottom: 1px solid blue ;
+}
+.container-mobile{
+    /* align-items: start; */
+    width: 100%;
+    /* height: 100%; */
+    background: #313443;
+    /* z-index: 100; */
+    top: 0;
+    right: 0;
+}
+.container-mobile a{
+    width: 100%;
+    align-items: center ;
+    margin: 0 auto;
+    padding:20px;
+    display: block;
+    color: #f0f4f6;
+    /* z-index: 100; */
+}
+
+

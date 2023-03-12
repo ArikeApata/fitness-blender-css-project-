@@ -1,13 +1,392 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  font-family: "Maison Neue", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+header {
+  align-items: center;
 }
+
+
+header .logo {
+  width: 10%;
+  /* padding-top: 1%; */
+  /* text-indent: -70px; */
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  width: 100%;
+  font-size: 12px;
+  /* margin-left: 1%; */
+  /* margin: 0 auto; */
+  background: #fff;
+  /* position: fixed; */
+  top: 0;
+  z-index: 1;
+
+
+}
+
+.navbar a {
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  /* margin-right: 10px; */
+  color: rgb(65, 63, 63);
+  /* padding: 20px; */
+  margin-left: 2%;
+}
+
+/* .navbar a:hover {
+  text-decoration: underline;
+  padding: 20px;
+} */
+
+/* .links {
+  width: 60%;
+  padding-top: 2%;
+} */
+
+.third {
+
+  width: 7.5%;
+  display: block;
+  justify-content: center;
+  font-size: 10px;
+  text-align: center;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+}
+
+.third span {
+  color: rgb(40, 136, 204);
+  border: none;
+  width: 100%;
+}
+
+.third span:hover {
+  text-decoration: none;
+}
+
+.fourth {
+  display: flex;
+  width: 7.5%;
+  justify-content: center;
+  margin: 0;
+}
+
+.fourth a {
+  width: 100%;
+}
+
+.banner {
+  margin: 0 auto;
+  z-index: 2;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* padding: 20px; */
+  width: 100%;
+  background: linear-gradient(to bottom right, #3d97ce 0%, #12debb 100%);
+  /* background-color: (linear, left top, right bottom, from(#3d97ce), to(#12debb)); */
+  /* background-color: linear-gradient(to right #3d97ce 0%, #12debb 100%); */
+  color: #fff;
+
+}
+
+.banner-description {
+  width: 40%;
+  text-align: left;
+  padding: 0 6%;
+}
+
+.banner a {
+  text-decoration: none;
+  background: #000;
+  color: aliceblue;
+  padding: 10px;
+
+}
+
+.banner-images {
+  width: 50%;
+
+}
+
+.banner-images img {
+  width: 50%;
+  margin-right: 6.25%;
+  max-height: 200px;
+  max-width: 200px;
+  border: 4px solid rgb(225, 218, 218);
+  border-radius: 150px;
+  justify-content: space-around;
+}
+
+.main {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  font-size: 22px;
+  margin: auto;
+  /* max-width: 50px; */
+}
+
+.main span {
+  color: #4296cb;
+}
+
+.main .ads a {
+  font-size: 18px;
+}
+
+.mini {
+  display: block;
+  /* width: 100%; */
+  /* margin: 0; */
+  background: #f0f4f6;
+}
+
+.main #ad1,
+#ad2,
+#ad3,
+#ad3,
+#ad4,
+#ad5,
+#ad6 {
+  /* padding: 30px 0; */
+  width: 49%;
+  justify-content: space-between;
+  margin: 0.5%;
+
+}
+
+.description {
+  width: 70%;
+  text-align: center;
+  justify-content: center;
+
+  margin: auto;
+}
+
+.description p {
+  font-size: 14px;
+}
+
+.description a {
+  text-decoration: none;
+
+}
+
+.main img {
+  width: 80%;
+}
+
+#ad1 {
+  background: linear-gradient(130deg, #ece6f8 0%, #f9e7f6 100%);
+
+}
+
+#ad2 {
+  background: #f0f4f6;
+}
+
+#ad3 {
+  background: #f0f4f6;
+}
+
+#ad4 {
+  background: #dff8ff;
+}
+
+#ad5 {
+  background: #000;
+  color: #fff;
+}
+
+#ad6 {
+  background: #d8d9da;
+}
+
+#community {
+  background: #effbff;
+  width: 100%;
+  margin: 0;
+}
+
+#community img {
+  width: 80%;
+}
+
+.scnd {
+  display: flex;
+  width: 100%;
+  /* padding: 4% 2%; */
+  background: #f0f4f6;
+}
+
+.scnd-ads {
+  width: 24%;
+  margin-right: 0.5%;
+  height: 100%;
+  display: block;
+  background: #fff;
+  border: 2px solid #fff;
+}
+
+.scnd-ads a h6 {
+  color: rgb(36, 147, 227);
+}
+
+.view-programs a {
+  text-decoration: none;
+  color: rgb(36, 147, 227);
+  padding-top: 20px;
+}
+
+.view-programs a:hover {
+  color: rgb(36, 147, 227);
+  border-bottom: 2px solid rgb(36, 147, 227);
+
+}
+
+.scnd-ads .img {
+  width: 100%;
+  height: 50%;
+}
+
+.scnd-ads .price {
+  padding-top: 40px;
+}
+
+.scnd-ads img {
+  width: 100%;
+  height: 50%;
+}
+
+.scnd-ads a {
+  color: #000;
+  background: #effbff;
+  text-decoration: none;
+}
+
+.scnd-ads a:hover {
+  cursor: pointer;
+  border: 2px solid #4296cb;
+}
+
+
+
+
+.workout .workout-button {
+  font-size: 11px;
+  border: none;
+  outline: none;
+  /* color: ; */
+  /* padding: 14px 16px; */
+  /* background-color: inherit; */
+  font-family: inherit;
+}
+
+.workout-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 60px;
+  width: 100%;
+  justify-content: center;
+  background-color: #000;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.workout:hover .workout-content {
+  display: flex;
+}
+
+.workout-content a {
+  /* float: none; */
+  justify-content: center;
+  color: red;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: flex;
+  /* text-align: left; */
+}
+
+.workout-content a img {
+  height: 30px;
+}
+.hamburger-menu{
+  display: none;
+}
+
+
+@media screen and (max-width: 1021px) {
+  .links a, .fourth{
+    display: none;
+  }
+
+}
+
+@media screen and (max-width: 991px) {
+  .container{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  .navbar .logo{
+    width: 50%;
+  }
+  .logo img{
+    width: 70%;
+    margin: auto;
+  }
+  .hamburger-menu{
+    display: flex;
+    width: 20%;
+    justify-content: center;
+  }
+  .third{
+    width: 20%;
+
+  }
+  .hamburger-menu button{
+    outline: none;
+    border: none;
+    /* color: #f0f4f6; */
+  }
+  .hamburger-menu span{
+    right: 0;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .banner {
+    display: block;
+  }
+
+  .main #ad1,
+  #ad2,
+  #ad3,
+  #ad3,
+  #ad4,
+  #ad5,
+  #ad6 {
+    width: 100%;
+    /* margin: auto 5%; */
+  }
+}
+
+@media screen and (max-width: 600px) {}
+
+@media screen and (max-width: 480px) {}
