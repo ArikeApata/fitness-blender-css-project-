@@ -6,8 +6,8 @@ const NavBar = () => {
 
   const handleToggleNav = () => setToggleNav(!toggleNav);
   return (
-    <div className="navbar">
-      <div className="container">
+    <nav className="navbar">
+      {/* <div className="container"> */}
         <div className="logo">
           <a href="">
             <img
@@ -95,7 +95,7 @@ const NavBar = () => {
           </div>
           <div className="other-links">
             <a href="">store</a>
-            <a href="">membership</a>
+            <a href="" className="membership">membership</a>
           </div>
         </div>
         <div className="third">
@@ -120,12 +120,12 @@ const NavBar = () => {
         </div>
         <div className="hamburger-menu">
           <button onClick={handleToggleNav}>
-            <span>
+            <span className="icon">
               <i class="fa fa-bars" aria-hidden="true"></i>{" "}
             </span>
           </button>
         </div>
-      </div>
+      
       
 
       {toggleNav && 
@@ -177,7 +177,7 @@ const NavBar = () => {
         </div>       
                </div>)}
     
-    </div>
+    </nav>
   );
 };
 

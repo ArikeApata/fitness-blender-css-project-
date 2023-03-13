@@ -1,5 +1,6 @@
 import Home from './Home';
 import NavBar from './Navbar';
+import Footer from './Footer'
 
 function App() {
   return (
@@ -8,8 +9,11 @@ function App() {
        <NavBar/>
       </header>
       <div className="body">
-        {/* <Home/> */}
+        <Home/>
       </div>
+      <footer>
+        <Footer/>
+      </footer>
     </div>
   );
 }

@@ -4,89 +4,8 @@ body {
   font-family: "Maison Neue", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
-header {
-  align-items: center;
-}
-
-
-header .logo {
-  width: 10%;
-  /* padding-top: 1%; */
-  /* text-indent: -70px; */
-}
-
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  text-align: center;
-  width: 100%;
-  font-size: 12px;
-  /* margin-left: 1%; */
-  /* margin: 0 auto; */
-  background: #fff;
-  /* position: fixed; */
-  top: 0;
-  z-index: 1;
-
-
-}
-
-.navbar a {
-  justify-content: space-between;
-  align-items: center;
-  text-decoration: none;
-  text-transform: uppercase;
-  /* margin-right: 10px; */
-  color: rgb(65, 63, 63);
-  /* padding: 20px; */
-  margin-left: 2%;
-}
-
-/* .navbar a:hover {
-  text-decoration: underline;
-  padding: 20px;
-} */
-
-/* .links {
-  width: 60%;
-  padding-top: 2%;
-} */
-
-.third {
-
-  width: 7.5%;
-  display: block;
-  justify-content: center;
-  font-size: 10px;
-  text-align: center;
-  border-left: 1px solid grey;
-  border-right: 1px solid grey;
-}
-
-.third span {
-  color: rgb(40, 136, 204);
-  border: none;
-  width: 100%;
-}
-
-.third span:hover {
-  text-decoration: none;
-}
-
-.fourth {
-  display: flex;
-  width: 7.5%;
-  justify-content: center;
-  margin: 0;
-}
-
-.fourth a {
-  width: 100%;
-}
-
 .banner {
-  margin: 0 auto;
-  z-index: 2;
+  margin: 0;
   font-size: 20px;
   display: flex;
   align-items: center;
@@ -94,8 +13,6 @@ header .logo {
   /* padding: 20px; */
   width: 100%;
   background: linear-gradient(to bottom right, #3d97ce 0%, #12debb 100%);
-  /* background-color: (linear, left top, right bottom, from(#3d97ce), to(#12debb)); */
-  /* background-color: linear-gradient(to right #3d97ce 0%, #12debb 100%); */
   color: #fff;
 
 }
@@ -115,15 +32,15 @@ header .logo {
 }
 
 .banner-images {
-  width: 50%;
+  width: 100%;
 
 }
 
 .banner-images img {
-  width: 50%;
+  width: 25%;
   margin-right: 6.25%;
-  max-height: 200px;
-  max-width: 200px;
+  /* max-height: 200px;
+  max-width: 200px; */
   border: 4px solid rgb(225, 218, 218);
   border-radius: 150px;
   justify-content: space-around;
@@ -302,91 +219,31 @@ header .logo {
   top: 60px;
   width: 100%;
   justify-content: center;
-  background-color: #000;
-  min-width: 160px;
+  background-color: #d4d4d4;
   z-index: 1;
 }
 
 .workout:hover .workout-content {
   display: flex;
+  justify-content: center;
 }
 
 .workout-content a {
-  /* float: none; */
   justify-content: center;
   color: red;
   padding: 12px 16px;
   text-decoration: none;
   display: flex;
+  margin: auto;
   /* text-align: left; */
 }
 
 .workout-content a img {
   height: 30px;
 }
-.hamburger-menu{
+
+.hamburger-menu {
   display: none;
 }
 
 
-@media screen and (max-width: 1021px) {
-  .links a, .fourth{
-    display: none;
-  }
-
-}
-
-@media screen and (max-width: 991px) {
-  .container{
-    width: 100%;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-  }
-  .navbar .logo{
-    width: 50%;
-  }
-  .logo img{
-    width: 70%;
-    margin: auto;
-  }
-  .hamburger-menu{
-    display: flex;
-    width: 20%;
-    justify-content: center;
-  }
-  .third{
-    width: 20%;
-
-  }
-  .hamburger-menu button{
-    outline: none;
-    border: none;
-    /* color: #f0f4f6; */
-  }
-  .hamburger-menu span{
-    right: 0;
-    font-size: 20px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .banner {
-    display: block;
-  }
-
-  .main #ad1,
-  #ad2,
-  #ad3,
-  #ad3,
-  #ad4,
-  #ad5,
-  #ad6 {
-    width: 100%;
-    /* margin: auto 5%; */
-  }
-}
-
-@media screen and (max-width: 600px) {}
-
-@media screen and (max-width: 480px) {}
