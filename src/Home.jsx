@@ -10,7 +10,7 @@ const Home = () => {
           </h1>
           <h4>
             Choose from hundreds of workouts, healthy recipes, relaxing
-            meditations, and expert articles, for a whole body and mind approach
+            meditations, <br /> and expert articles, for a whole body and mind approach
             to feeling great.
           </h4>
           <a href="">Join now</a>
@@ -25,7 +25,6 @@ const Home = () => {
           <img src="/images/test.jpeg" alt="" />
           <img src="/images/test.jpeg" alt="" />
           <img src="/images/test.jpeg" alt="" />
-          
         </div>
       </div>
       <div className="main">
@@ -112,74 +111,76 @@ const Home = () => {
           <img src="/images/img7.jpg" alt="" />
         </div>
       </div>
-
-      <h2>Not sure where to start?</h2>
-      <p>
-        Programs offer day-to-day guidance on an interactive calendar to keep
-        you on track.
-      </p>
-      <div className="scnd">
-        <div className="scnd-ads">
-          <h3>Perfect for Beginners</h3>
-          <a href="">
-            <div className="img">
-              <img src="/images/scndimg1.jpg" alt="" />
-            </div>
-            {/* <div className="scnd-description">  */}
-            <h6>4 WEEK PROGRAM - 34 MIN/DAY</h6>
-            <h5>
-              FB Low Impact Round 2- Build Muscle & Burn Fat - 40 Minutes or
-              Less
-            </h5>
-            <p className="price">$19.99</p>
-            {/* <!-- </div> --> */}
-          </a>
+      <article>
+        <h2>Not sure where to start?</h2>
+        <p>
+          Programs offer day-to-day guidance on an interactive calendar to keep
+          you on track.
+        </p>
+        <div className="scnd">
+          <div className="scnd-ads">
+            <h3>Perfect for Beginners</h3>
+            <a href="">
+              <div className="img">
+                <img src="/images/scndimg1.jpg" alt="" />
+              </div>
+             <div className="scnd-description">
+              <p>4 WEEK PROGRAM - 34 MIN/DAY</p>
+              <h6>
+                FB Low Impact Round 2- Build Muscle & Burn Fat - 40 Minutes or
+                Less
+              </h6>
+              <span>$19.99</span>
+               </div> 
+            </a>
+          </div>
+          <div className="scnd-ads">
+            <h3>You Choose</h3>
+            <a href="">
+              <div className="img">
+                <img src="/images/scndimg2.jpg" alt="" />
+              </div>
+              <div className="scnd-description"> 
+              <p>4 WEEK PROGRAM - 38 MIN/DAY</p>
+              <h6>
+                FB Blend- Burn Fat, Build Muscles, Tone; 35 or 55 Minutes a Day
+                - 40 Minutes or Less
+              </h6>
+              <span>$19.99</span>
+               </div>
+            </a>
+          </div>
+          <div className="scnd-ads">
+            <h3>Short on Time?</h3>
+            <a href="">
+              <div className="img">
+                <img src="/images/scndimg3.jpg" alt="" />
+              </div>
+              <div className="scnd-description">
+              <p>4 WEEK PROGRAM - 30 MIN/DAY</p>
+              <h6>FB 30 -Fat Loss Program for Busy People (Round 4)</h6>
+              <span>$19.99</span>
+              </div>
+            </a>
+          </div>
+          <div className="scnd-ads">
+            <h3>No Equipments Necessary</h3>
+            <a href="">
+              <div className="img">
+                <img src="/images/scndimg4.jpg" alt="" />
+              </div>
+              <div className="scnd-description">
+              <p>4 WEEK PROGRAM - 40 MIN/DAY</p>
+              <h6>FB Body Weight - Bodyweight only Fat Loss Program</h6>
+              <span>$19.99</span>
+              </div>
+            </a>
+          </div>
         </div>
-        <div className="scnd-ads">
-          <h3>You Choose</h3>
-          <a href="">
-            <div className="img">
-              <img src="/images/scndimg2.jpg" alt="" />
-            </div>
-            {/* <!-- <div className="scnd-description"> --> */}
-            <h6>4 WEEK PROGRAM - 38 MIN/DAY</h6>
-            <h5>
-              FB Blend- Burn Fat, Build Muscles, Tone; 35 or 55 Minutes a Day -
-              40 Minutes or Less
-            </h5>
-            <p className="price">$19.99</p>
-            {/* <!-- </div> --> */}
-          </a>
+        <div className="view-programs">
+          <a href="">View All Programs</a>
         </div>
-        <div className="scnd-ads">
-          <h3>Short on Time?</h3>
-          <a href="">
-            <div className="img">
-              <img src="/images/scndimg3.jpg" alt="" />
-            </div>
-            {/* <!-- <div className="scnd-description"> --> */}
-            <h6>4 WEEK PROGRAM - 30 MIN/DAY</h6>
-            <h5>FB 30 -Fat Loss Program for Busy People (Round 4)</h5>
-            <p className="price">$19.99</p>
-            {/* <!-- </div> --> */}
-          </a>
-        </div>
-        <div className="scnd-ads">
-          <h3>No Equipments Necessary</h3>
-          <a href="">
-            <div className="img">
-              <img src="/images/scndimg4.jpg" alt="" />
-            </div>
-            {/* <!-- <div className="scnd-description"> --> */}
-            <h6>4 WEEK PROGRAM - 40 MIN/DAY</h6>
-            <h5>FB Body Weight - Bodyweight only Fat Loss Program</h5>
-            <p className="price">$19.99</p>
-          </a>
-        </div>
-      </div>
-      <div className="view-programs">
-        <a href="">View All Programs</a>
-      </div>
+      </article>
     </div>
   );
 };

@@ -2,6 +2,7 @@ import Home from './Home';
 import NavBar from './Navbar';
 import Footer from './Footer'
 
+
 function App() {
   return (
     <div className="App">

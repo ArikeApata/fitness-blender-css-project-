@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  background: #f0f4f6;
   box-sizing: border-box;
   font-family: "Maison Neue", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
@@ -19,8 +20,9 @@ body {
 
 .banner-description {
   width: 40%;
+  font-size: 16px;
   text-align: left;
-  padding: 0 6%;
+  padding: 2% 6%;
 }
 
 .banner a {
@@ -139,33 +141,51 @@ body {
 }
 
 #community img {
-  width: 80%;
+  width: 100%;
 }
 
-.scnd {
-  display: flex;
+article {
   width: 100%;
-  /* padding: 4% 2%; */
-  background: #f0f4f6;
+  margin: 0 2%;
+  
+}
+.scnd{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
 }
 
 .scnd-ads {
-  width: 24%;
+  align-items: flex-end;
+  width: 23.5%;
   margin-right: 0.5%;
-  height: 100%;
-  display: block;
   background: #fff;
-  border: 2px solid #fff;
+  height: 100%;
+  margin-bottom: 0.5%;
+  display: block;
+}
+.scnd h3{
+  font-size: 14px;
+}
+.scnd-description{
+  margin-top: 0;
+  padding: 20px;
+
 }
 
-.scnd-ads a h6 {
+.scnd-ads p {
   color: rgb(36, 147, 227);
+  font-size: 11px;
+  
+}
+
+.view-programs{
+  padding: 30px 0;
 }
 
 .view-programs a {
   text-decoration: none;
   color: rgb(36, 147, 227);
-  padding-top: 20px;
 }
 
 .view-programs a:hover {
@@ -174,13 +194,10 @@ body {
 
 }
 
-.scnd-ads .img {
-  width: 100%;
-  height: 50%;
-}
 
-.scnd-ads .price {
-  padding-top: 40px;
+
+.scnd-ads span {
+  align-items: flex-end;
 }
 
 .scnd-ads img {
@@ -245,5 +262,24 @@ body {
 .hamburger-menu {
   display: none;
 }
+@media screen and (max-width: 768px) {
+  .banner {
+    display: block;
+  }
 
+  .main #ad1,
+  #ad2,
+  #ad3,
+  #ad3,
+  #ad4,
+  #ad5,
+  #ad6 {
+    width: 100%;
+    /* margin: auto 5%; */
+  }
+
+  .footer .left{
+    width: 100%;
+  }
+}
 
