@@ -142,7 +142,6 @@ body {
 }
 
 article {
-  width: 100%;
   margin: 0 3%;
 
 }
@@ -150,18 +149,16 @@ article {
 .scnd {
   display: flex;
   flex-wrap: wrap;
-  width: %;
-  max-width: 1200px;
+  width: 100%;
 }
 
 .scnd-ads {
-  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
   width: 24.5%;
+  justify-content: space-around;
   margin-right: 0.5%;
-  background: #fff;
   height: 100%;
-  margin-bottom: 0.5%;
-  display: block;
 }
 
 .scnd h3 {
@@ -169,9 +166,10 @@ article {
 }
 
 .scnd-description {
+  display: block;
   margin-top: 0;
   padding: 20px;
-
+  background: #fff;
 }
 
 .scnd-ads p {
@@ -197,9 +195,7 @@ article {
 
 
 
-.scnd-ads span {
-  align-items: flex-end;
-}
+
 
 .scnd-ads img {
   width: 100%;
